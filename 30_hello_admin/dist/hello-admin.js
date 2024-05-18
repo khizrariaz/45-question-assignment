@@ -23,3 +23,9 @@ userNames.forEach(userName => {
         console.log(`Hello ${userName}, thank you for logging in again.`);
     }
 });
+//ans=
+// Hello admin, would you like to see a status report?
+// Hello Ali, thank you for logging in again.
+// Hello Ahmed, thank you for logging in again.
+// Hello Amad, thank you for logging in again.
+// Hello Adi, thank you for logging in again.

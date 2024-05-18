@@ -7,8 +7,10 @@ if (alien_color === 'green') {
     console.log("Player just earned 5 points! ");
 }
 //• Write one version of this program that passes the if test and another that fails.
+//false condition me bracket k andar ka code run nai hota
 alien_color = ('yellow');
 // (The version that fails will have no output.)
 if (alien_color === 'green') {
-    console.log("Player just earned 5 points! ");
+    console.log("Player just earned 10 points! ");
 }
+//ans= Player just earned 5 points! 

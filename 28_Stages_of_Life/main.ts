@@ -36,3 +36,5 @@ else if (age >=20 && age < 65 ) {
 else {
 console.log("The person is an elder.");
 }
+
+//ans= The person is an adult.

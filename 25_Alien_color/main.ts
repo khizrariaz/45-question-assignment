@@ -14,9 +14,11 @@ if (alien_color ==='green'){
 //false condition me bracket k andar ka code run nai hota
 
 alien_color = ('yellow');
-
 // (The version that fails will have no output.)
+
 if (alien_color ==='green'){
     console.log( "Player just earned 5 points! ");
 }
+
+//ans= Player just earned 5 points! 
 

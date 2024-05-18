@@ -9,6 +9,7 @@ console.log('player just earned 5 points for shooting the alien.');
 }else{
     console.log("player just earned 10 points.");
 }
+//ans: player just earned 5 points for shooting the alien.
 
 // Write one version of this program that runs the if block and another that runs the else block.
 
@@ -19,6 +20,9 @@ if (alienColors==="green"){
     }else{
         console.log("player just earned 10 points.");
     }
+     // ans= player just earned 10 points.
+
+   
 
 //if ki condition true hui to usky curly braces wala code run hoga
 //if ki condition false hui to else wali condition run hogi. agr if condion true heto else run ni hoga

@@ -29,6 +29,12 @@ new_users.forEach(newUserNames => {
  }
 })
 
+//ans=The username Bilal is available.
+// The username TaHa is not available. Please write
+// a different username
+// The username Dawood is available.
+// The username Jameel is available.
+// The username Hamza is available.
 
 // //.include= {current_user} array ki inner value chk krny k lye. k wo value array k andr present h ya nai
 //if present = ture, if absent= false

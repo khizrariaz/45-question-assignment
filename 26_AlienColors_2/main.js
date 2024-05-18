@@ -9,6 +9,7 @@ if (alienColors === "green") {
 else {
     console.log("player just earned 10 points.");
 }
+// Write one version of this program that runs the if block and another that runs the else block.
 // If the alien’s color isn’t green, print a statement that player just earned 10 points
 alienColors = "yellow";
 if (alienColors === "green") {
@@ -22,4 +23,3 @@ else {
 // ()= parentheses
 // []= square bracket
 // {}= curly braces
-// • Write one version of this program that runs the if block and another that runs the else block.

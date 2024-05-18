@@ -1,7 +1,7 @@
 //Stages of Life: Write an if-else chain that determines a person’s stage of life.
 //   Set a value for the variable age, and then:
 var age = 25;
-// • If the person is less than 2 years old, print a message that the person is a baby.
+// If the person is less than 2 years old, print a message that the person is a baby.
 if (age < 2) {
     console.log("The person is a baby.");
 }
@@ -23,6 +23,7 @@ else if (age >= 13 && age < 20) {
 }
 // If the person is at least 20 years old but less than 65, print a message that the 
 //person is an adult.
+//this is ans bcz let variable age= 25
 else if (age >= 20 && age < 65) {
     console.log("The person is an adult.");
 }

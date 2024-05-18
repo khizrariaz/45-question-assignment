@@ -28,3 +28,7 @@ if (favorite_fruits.includes("strawberry")) {
     console.log("I really like grape!");
 
   }
+  //ans=
+  // I really like mango!
+  // I really like banana!
+  // I really like orange!

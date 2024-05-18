@@ -20,6 +20,7 @@ if(alienColor==="green"){
 else{
     console.log("Please select right color.")
 }
+//ans= version 1: player earned 5 points.
 
 //version 2 of the program
 alienColor= "yellow";
@@ -35,6 +36,7 @@ if(alienColor==="green"){
 else{
     console.log("Please select right color.")
 }
+//ans=version 2: player earned 10 points.
 
 //version 3 of the program
 alienColor= "red";
@@ -50,5 +52,6 @@ if(alienColor==="green"){
 else{
     console.log("Please select right color.")
 }
+//ans= version 3: player earned 15 points.
 
 
