@@ -8,18 +8,14 @@
 //includes the number of tracks on an album.
 
 
-interface Album {
-    artist: string;
-    title: string;
-    tracks?: number;
-}
 
-function make_album(artist: string, title: string, tracks?: number): Album {
-    const album: Album = {
-        artist: artist,
-        title: title
+function make_album(artist_name: string, album_title: string, tracks?: number){
+      let album : {artist: string, title: string, tracks?: number} = { //these are types of object
+        artist: artist_name, //key=value
+        title: album_title,
     };
-    if (tracks !== undefined) {
+
+    if (tracks !== undefined) {     //if track ki value add ho to track valu add o warna nai
         album.tracks = tracks;
     }
     return album;

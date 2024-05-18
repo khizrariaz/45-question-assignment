@@ -3,6 +3,8 @@
 //  Give the parameter for the country a default value. Call your function for three different
 //   cities, at least one of which is not in the default country.
 
+
+
 function describe_city(city : string, country : string = "Defaul Country"){
 console.log(`${city} is in ${country}`);
 
@@ -10,3 +12,17 @@ console.log(`${city} is in ${country}`);
 describe_city ('Karachi','Pakistan');
 describe_city ('Tokyo','Japan');
 describe_city ('Turkey');
+
+
+
+
+
+
+// function describe_city(city : string ="karachi", country : string = "pakistan") {
+//     console.log(`${city} is in ${country}`)
+    
+//     }
+    
+//     describe_city()
+//     describe_city("lahore", "punjab")
+//     describe_city("tokyo",  "germany")

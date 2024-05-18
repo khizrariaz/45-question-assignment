@@ -2,8 +2,8 @@
 //creating car variable
 var car = 'subaru';
 //test no.1
-console.log("Is car === 'subaru'? I predict True.");
-console.log(car == 'subaru');
+console.log("Is car === 'subaru'? I predict True."); // value n type match, strict equality chk
+console.log(car == 'subaru'); //== matches value not types
 //test no.2
 console.log("Is car == 'subaru'? I predict True.");
 console.log(car == 'subaru');
@@ -32,7 +32,7 @@ console.log(car === 'Bus');
 console.log("Is car === 'Cycle'? I predict False.");
 console.log(car === 'Cycle');
 // = set our value= string type data store "subaru"
-// ==to check the value= string me subaru he ya dusra word
+// ==to check the value only not type= string me subaru he ya dusra word
 // === value ko uski datatype k sath check krna = check subaru of strin type "subaru"
 // != means not equal to
 // 2!=2  false .. means 2 is not equal to 2

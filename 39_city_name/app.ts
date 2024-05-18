@@ -15,3 +15,14 @@ return `"${city}, ${country}"`;
 console.log(city_country("lahore", "Pakistan"));
 console.log(city_country("Tokye", "Japan"));
 console.log(city_country("Paris", "France"));
+
+
+
+
+
+// function city_country(city: string, country : string) {
+//     return `${city}, ${country}`
+// }
+// console.log(city_country ("lahore", "pakistan"));
+// console.log(city_country ("karachi", "pakistan"));
+// console.log(city_country ("sindh", "pakistan"));

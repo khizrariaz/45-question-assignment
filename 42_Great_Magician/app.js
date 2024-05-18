@@ -6,8 +6,10 @@ const magicianNames = ["Merlin", "Gandalf", "Harry Houdini", "David Copperfield"
 function make_great(magicians) {
     for (let i = 0; i < magicians.length; i++) {
         magicians[i] = "the Great " + magicians[i];
+        console.log(magicians[i]);
     }
 }
+//  show-mag to call krna tha ques me bola h. thxy func banaya show mag ka
 function show_magicians(magicians) {
     for (let i = 0; i < magicians.length; i++) {
         console.log(magicians[i]);

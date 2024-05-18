@@ -7,10 +7,10 @@
 //store the number of tracks on an album. If the calling line includes a value for the number
 //of tracks, add that value to the album’s Object. Make at least one new function call that
 //includes the number of tracks on an album.
-function make_album(artist, title, tracks) {
-    const album = {
-        artist: artist,
-        title: title
+function make_album(artist_name, album_title, tracks) {
+    let album = {
+        artist: artist_name,
+        title: album_title,
     };
     if (tracks !== undefined) {
         album.tracks = tracks;

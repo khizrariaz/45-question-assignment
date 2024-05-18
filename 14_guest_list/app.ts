@@ -4,3 +4,12 @@ for(let i=0; i<guestList.length; i++){
 }
 
 export {guestList}
+
+
+
+// let flowerName : string[] = ['Lilly','rose','jasmine'];
+// let message : string = 'I love'
+
+// for(let i=0; i<flowerName.length; i++){
+// console.log(`${message}` + " " + flowerName[i] + '.')
+// }

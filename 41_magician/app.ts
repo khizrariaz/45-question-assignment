@@ -3,8 +3,9 @@
 
 //for loop method
 
+
 const magicianNames: string[] = ["Merlin", "Gandalf", "Harry Houdini", "David Copperfield"];
-function show_magician(magicians: string[]) {
+function show_magician(magicians: string[]) {    //magician=parameter
     for (let i = 0; i < magicians.length; i++) {
       console.log(magicians[i]);
     }
@@ -14,15 +15,46 @@ function show_magician(magicians: string[]) {
 
 
 //for each method
+
 let magicians: string[] = ["Harry Houdini", "David Blaine", "Penn Jillette"];
 function show_magicians(magicians: string[]) {
-
+//element is parameter here
 magicians.forEach(element => {
     console.log(element);
 
 });
 }
 show_magicians(magicians);
+
+
+
+
+
+
+// let magician_names :string[] = ["a","b","c","d","e"];
+
+// function show_magicians(magician_names:string[]) {
+//   magician_names.forEach(element => {
+
+//     console.log(element);
+    
+//   })
+
+// }
+// show_magicians(magician_names)
+
+
+
+
+// let magician_names: string[] = ["1","2","3","4","5"];
+
+// function show_magicians(magician_names:string[]){
+// for (let i=0; i<magician_names.length; i++)
+// {
+//     console.log(magician_names[i]);
+// }
+// }
+// show_magicians(magician_names)
 
 
   

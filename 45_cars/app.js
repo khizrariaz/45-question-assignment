@@ -12,3 +12,7 @@ function storeCarInfo(manufacturer, modelName, ...extraoptions) {
 ;
 let ans = storeCarInfo('Honda', 'Civic', { color: 'Black' }, { features: ['navigation', 'power window'] });
 console.log(ans);
+//...spreadoperator.can add many arguments
+//...sprd opertr data ko array me store krta h
+//{ [key : string] : any}...key(also called property) :string ,key ki type h..
+// or any is type for valu of object. { [key : string] : any} is called index signature

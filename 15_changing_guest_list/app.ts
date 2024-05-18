@@ -10,6 +10,6 @@ for(let i=0; i<guestList.length; i++){
 };
 
 console.log (`Mr. Ali will not be able to come tonight. `)
-
+// 2nd method = console.log ('Mr. Ali will not be able to come tonight. ')
 
 

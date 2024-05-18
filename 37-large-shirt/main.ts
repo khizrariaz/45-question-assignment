@@ -2,6 +2,8 @@
 //  a message that reads I love TypeScript.Make a large shirt and a medium shirt with the default
 //   message, and a shirt of any size with a different message.
 
+
+
 // question me parameters are in ()
 function make_shirt (size:string = 'large', text:string = 'I love typescript'){
 console.log(`Making a ${size} shirt with the message: ${text}`)
@@ -10,3 +12,15 @@ console.log(`Making a ${size} shirt with the message: ${text}`)
 make_shirt();
 make_shirt('medium');
 make_shirt('small','I love python!');
+
+
+
+
+// function make_shirt (size:string ="large" , text : String ="I love TypeScript"){
+
+//     console.log(`shirt of ${size} with ${text}`);
+    
+// }
+// make_shirt()
+// make_shirt("medium shirt with momy luv")
+// make_shirt("small sized baby")
