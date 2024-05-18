@@ -16,6 +16,14 @@ console.log(city_country("lahore", "Pakistan"));
 console.log(city_country("Tokye", "Japan"));
 console.log(city_country("Paris", "France"));
 
+// "lahore, Pakistan"
+// "Tokye, Japan"
+// "Paris, France"
+
+
+
+
+
 
 
 

@@ -3,24 +3,15 @@
 //   message, and a shirt of any size with a different message.
 
 
-
-// question me parameters are in ()
 function make_shirt (size:string = 'large', text:string = 'I love typescript'){
 console.log(`Making a ${size} shirt with the message: ${text}`)
 }
-//in ans arguments are in ()
-make_shirt();
-make_shirt('medium');
-make_shirt('small','I love python!');
 
+make_shirt(); //default size n text will add
+make_shirt('medium'); //default msg will add
+make_shirt('small','I love python!'); 
 
-
-
-// function make_shirt (size:string ="large" , text : String ="I love TypeScript"){
-
-//     console.log(`shirt of ${size} with ${text}`);
-    
-// }
-// make_shirt()
-// make_shirt("medium shirt with momy luv")
-// make_shirt("small sized baby")
+//ans=
+// Making a large shirt with the message: I love typescript
+// Making a medium shirt with the message: I love typescript
+// Making a small shirt with the message: I love python!  

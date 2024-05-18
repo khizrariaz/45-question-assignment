@@ -12,7 +12,7 @@ function make_album(artist_name, album_title, tracks) {
         artist: artist_name,
         title: album_title,
     };
-    if (tracks !== undefined) {
+    if (tracks !== undefined) { //if track ki value add ho to track valu add o warna nai
         album.tracks = tracks;
     }
     return album;

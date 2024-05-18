@@ -30,3 +30,7 @@ const album3 = make_album("Artist3", "Album3");
 console.log(album1);
 console.log(album2);
 console.log(album3);
+
+//{ artist: 'Artist1', title: 'Album1' }
+// { artist: 'Artist2', title: 'Album2', tracks: 12 }
+// { artist: 'Artist3', title: 'Album3' }

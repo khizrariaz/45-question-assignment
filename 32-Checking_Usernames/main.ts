@@ -22,16 +22,14 @@ new_users.forEach(newUserNames => {
 
 //current_users wali all value c_user me ay gi
  if (current_users.map(c_user => c_user.toLowerCase()).includes(lowerCase)){
-    console.log(`The username ${newUserNames} is not available. Please write 
-    a different username`);
+console.log(`The username ${newUserNames} is not available. Please write a different username`);
  } else{
     console.log(`The username ${newUserNames} is available.`);
  }
 })
 
 //ans=The username Bilal is available.
-// The username TaHa is not available. Please write
-// a different username
+// The username TaHa is not available. Please write a different username
 // The username Dawood is available.
 // The username Jameel is available.
 // The username Hamza is available.

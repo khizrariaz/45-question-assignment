@@ -8,6 +8,8 @@ const magician = ["Merlin", "Gandalf", "Harry Houdini", "David Copperfield"];
 function copyArray(arr) {
     return [...arr];
 }
+//...spreadoperator= make copy n spread info from old to in new copy
+//...arr is making copy of array jo k return hogi
 function make_great(magicianArray) {
     for (let i = 0; i < magicianArray.length; i++) {
         (magicianArray[i]) = "The Great " + magicianArray[i];
@@ -16,7 +18,6 @@ function make_great(magicianArray) {
 function show_magicians(magicians) {
     for (let i = 0; i < magicians.length; i++) {
         console.log(magicians[i]);
-        //for each----------magicians.forEach(element => {console.log( element )}
     }
 }
 let copyMagicianArray = copyArray(magician);

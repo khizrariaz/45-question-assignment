@@ -26,35 +26,21 @@ magicians.forEach(element => {
 }
 show_magicians(magicians);
 
+// ans=
+// Merlin
+// Gandalf
+// Harry Houdini
+// David Copperfield
+// Harry Houdini
+// David Blaine
+// Penn Jillette
 
 
 
 
 
-// let magician_names :string[] = ["a","b","c","d","e"];
-
-// function show_magicians(magician_names:string[]) {
-//   magician_names.forEach(element => {
-
-//     console.log(element);
-    
-//   })
-
-// }
-// show_magicians(magician_names)
 
 
-
-
-// let magician_names: string[] = ["1","2","3","4","5"];
-
-// function show_magicians(magician_names:string[]){
-// for (let i=0; i<magician_names.length; i++)
-// {
-//     console.log(magician_names[i]);
-// }
-// }
-// show_magicians(magician_names)
 
 
   

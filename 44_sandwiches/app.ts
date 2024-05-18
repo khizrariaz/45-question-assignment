@@ -18,4 +18,23 @@ function makeSandwich(items: string[]) {
   makeSandwich(["Turkey", "Swiss Chees"]);
 
   makeSandwich(["Peanut Butter", "Jelly"]);
+
+//   Making your sandwich with:
+// - Ham
+// - Cheese
+// - Lettuce
+// Enjoy your sandwich!      
+
+
+// Making your sandwich with:
+// - Turkey
+// - Swiss Chees
+// Enjoy your sandwich!
+
+
+// Making your sandwich with:
+// - Peanut Butter
+// - Jelly
+// Enjoy your sandwich!
+
   

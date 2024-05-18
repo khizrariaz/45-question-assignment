@@ -5,9 +5,10 @@
 //  two other name-value pairs, such as a color or an optional feature. Print the Object that’s 
 //  returned to make sure all the information was stored correctly.
 function storeCarInfo(manufacturer, modelName, ...extraoptions) {
+    //:object= is type of object i.e carinfo                                                            
     const carInfo = Object.assign({ manufacturer,
         modelName }, Object.assign({}, ...extraoptions));
-    return carInfo;
+    return carInfo; //obj return
 }
 ;
 let ans = storeCarInfo('Honda', 'Civic', { color: 'Black' }, { features: ['navigation', 'power window'] });
