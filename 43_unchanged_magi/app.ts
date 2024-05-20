@@ -35,9 +35,16 @@ function show_magicians(magicians: string[]) {
   console.log("\n\nThis is my modified copy of array: " );
   show_magicians(copyMagicianArray);
 
-// This is my modified copy of array:
-// The Great Merlin
-// The Great Gandalf
-// The Great Harry Houdini
-// The Great David Copperfield
+  // This is my original array: 
+  // Merlin       
+  // Gandalf      
+  // Harry Houdini
+  // David Copperfield
+  
+  
+  // This is my modified copy of array:
+  // The Great Merlin
+  // The Great Gandalf
+  // The Great Harry Houdini
+  // The Great David Copperfield
 

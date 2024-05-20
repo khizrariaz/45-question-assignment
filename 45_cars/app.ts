@@ -12,8 +12,8 @@ function storeCarInfo(manufacturer: string, modelName: string,
         modelName,
         ...Object.assign({}, ...extraoptions)
     }
-    //is obj me extra features add hoskty h due to sprdoprtr
-    //assign is a meathod in which v place ...extraoption wala sprdoprtr
+    //{} = target in whch source value will be added after copy
+    //...extraopt = source= ismy c data copy hony bad {}=target me jakr save hoga
 
     return carInfo;   //obj return
 };
@@ -34,3 +34,16 @@ console.log(ans);
 //...sprd opertr data ko array me store krta h
 //{ [key : string] : any}...key(also called property) :string ,key ki type h..
 // or any is type for valu of object. { [key : string] : any} is called index signature
+// ...Object.assign= it copies values from source obj to target obj. it returns the target obj 
+//after copying the properties i.e
+
+// let target = { a: 1, b: 2 };
+// let source = { b: 3, c: 4 };
+
+// Object.assign(target, source);
+
+// console.log(target); // Output: { a: 1, b: 3, c: 4 }
+// source obj ki properties target me copy hojati h. phr target copy hony k bad return hota h
+
+//index signature= define the types for accessing properties of an obj using squar bracket
+//[key : string] : any
