@@ -1,12 +1,18 @@
+//Number Eight: Write addition, subtraction, multiplication, and division operations that each 
+//result in the number 8. Be sure to enclose your operations in print statements to see the results.
 // Addition
-var additionResult = 5 + 3;
-console.log("Addition Result: ".concat(additionResult));
-// Subtraction
-var subtractionResult = 10 - 2;
-console.log("Subtraction Result: ".concat(subtractionResult));
-// Multiplication
-var multiplicationResult = 4 * 2;
-console.log("Multiplication Result: ".concat(multiplicationResult));
-// Division
-var divisionResult = 16 / 2;
-console.log("Division Result: ".concat(divisionResult));
+// let additionResult: number = 5 + 3;
+// console.log(`Addition Result: ${additionResult}`);
+// // Subtraction
+// let subtractionResult: number = 10 - 2;
+// console.log(`Subtraction Result: ${subtractionResult}`);
+// // Multiplication
+// let multiplicationResult: number = 4 * 2;
+// console.log(`Multiplication Result: ${multiplicationResult}`);
+// // Division
+// let divisionResult: number = 16 / 2;
+// console.log(`Division Result: ${divisionResult}`);
+var add = 4 + 4;
+console.log(add);
+var sub = 8 - 4;
+console.log("sub ans: ".concat(sub));
