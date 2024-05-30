@@ -9,3 +9,11 @@ console.log("Accessing a valid element at index 2:", myArray[2]); // This will w
 
 // Correction: let's change the invalid index to a valid one
 console.log("Correcting the error and accessing the element at index 1:", myArray[1]); // This will work fine
+  
+
+
+// let alpha : string[]= ["A","B","C","D"]
+
+// console.log("valid index: " + alpha[2]);
+// console.log("invalid index: " + alpha[10]);
+

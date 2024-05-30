@@ -36,3 +36,18 @@ console.log(car === 'Cycle');
 // === value ko uski datatype k sath check krna = check subaru of strin type "subaru"
 // != means not equal to
 // 2!=2  false .. means 2 is not equal to 2
+var transport = "bike";
+console.log("is transport == 'bike'? true");
+console.log(transport == "bike");
+console.log("transport === 'bike'? true");
+console.log(transport === "bike");
+console.log("transport != 'car' true");
+console.log(transport != "car");
+console.log("transport === 'BIKE' false");
+console.log(transport === "BIKE");
+console.log("transport === 'bike' false ");
+console.log(transport.toUpperCase() === 'bike');
+console.log("transport === 'BIKE' true");
+console.log(transport.toUpperCase() === "BIKE");
+console.log("transport == 'bike' true");
+console.log(transport.toLowerCase() == "BIKE");

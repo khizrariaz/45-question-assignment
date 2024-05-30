@@ -9,3 +9,18 @@ let shoe = {
 
     console.log(shoe.shoeType);
     console.log('Month: ' + shoe.newArrivals.Month +', Amount: ' + shoe.newArrivals.Amount);
+
+    
+
+    // let flower = {
+    //     rose: "red",
+    //     petals: "multiple",
+    //     stalk: true,
+    //     number: 10,
+    //     fragrance: true
+    // }
+    // console.log(flower);
+    // console.log(flower.fragrance, flower.petals);
+    // console.log(flower.number);
+
+    
